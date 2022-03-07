@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-image: url(./bg.gif);
+    background-size: cover;
+}
+@media (max-width: 1400px) {
+    .flexbox-center {
+        transform: scale(0.6, 0.6);
+        overflow: visible;
+    }
+}
+@media (max-width: 1000px) {
+    .flexbox-center {
+        transform: scale(0.4, 0.4);
+        overflow: visible;
+    }
+}
+@media (max-width: 800px) {
+    .flexbox-center {
+        transform: scale(0.3, 0.3);
+        overflow: visible;
+    }
+}
+.main {
+    position: relative;
+    width: 120vh;
+    height: 80vh;
+    background-image: linear-gradient(to right, rgb(104, 168, 61), rgb(50, 143, 120));
+    border-radius: 20px;
+    margin: 0 auto;
+    top: 10vh;
+}
+.main .logo {
+    position: absolute;
+    left: 5vh;
+    top: 3vh;
+}
+.main .logo .img_logo {
+    width: 10vh;
+    height: 11vh;
+    border-radius: 300vh;
+}
+.main .layout {
+    position: relative;
+    top: 3.5vh;
+    left: 5vh;
+}
+.main .layout .text_name {
+    width: 50vh;
+    margin-left: 12vh;
+}
+.main .layout .text_job {
+    position: relative;
+    width: 50vh;
+    margin-left: 17vh;
+    top: -2vh;
+}
+.main .js {
+    position: relative;
+    width: 50vh;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(202, 214, 29), rgb(73, 221, 29));
+    text-align: center;
+    border-radius: 20px;
+    top: 10vh;
+    left: 4vh;
+    box-shadow: 1px 2px 1px greenyellow;
+    cursor: pointer;
+    text-shadow: 1px 2px yellow;
+    line-height: 85px;
+}
+
+.main .js:hover {
+    background-image: linear-gradient(to right, rgb(76, 216, 174), rgb(44, 73, 35));
+}
+.main .html {
+    position: relative;
+    width: 50vh;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(214, 66, 29), rgb(247, 24, 17));
+    text-align: center;
+    border-radius: 20px;
+    top: 10vh;
+    left: 4vh;
+    box-shadow: 1px 2px 1px red;
+    cursor: pointer;
+    text-shadow: 1px 2px red;
+    line-height: 85px;
+}
+.main .html:hover {
+    background-image: linear-gradient(to right, rgb(214, 66, 29), rgb(201, 236, 74));
+}
+.main .css {
+    position: relative;
+    width: 50vh;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(156, 140, 212), rgb(119, 165, 105));
+    text-align: center;
+    border-radius: 20px;
+    top: 10vh;
+    left: 4vh;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px gray;
+    text-shadow: 1px 2px gray;
+    line-height: 85px;
+}
+.main .css:hover {
+    background-image: linear-gradient(to left, rgb(53, 41, 95), rgb(165, 127, 105));
+}
+.main .reactjs {
+    position: relative;
+    width: 50vh;
+    height: 10vh;
+    background-image: linear-gradient(to right, rgb(107, 93, 156), rgb(19, 34, 122));
+    text-align: center;
+    border-radius: 20px;
+    top: 10vh;
+    left: 4vh;
+    cursor: pointer;
+    box-shadow: 1px 2px 1px rgb(83, 83, 136);
+    text-shadow: 1px 2px blue;
+    line-height: 85px;
+}
+.main .reactjs:hover {
+    background-image: linear-gradient(to left, rgb(53, 41, 95), rgb(165, 127, 105));
+}
+.main .body {
+    position: relative;
+    width: 50vh;
+    height: 65vh;
+    background-image: linear-gradient(to right, rgb(177, 174, 185), rgb(180, 216, 169));
+    top: -55vh;
+    left: 60vh;
+    border-radius: 20px;
+    box-shadow: 1px 2px 1px gray;
+}
+.main .body .text_school {
+    position: relative;
+    font-size: 2vh;
+    padding: 5px;
+    color: rgb(29, 26, 12);
+}
+.main .body .infotext {
+    position: relative;
+    font-size: 5vh;
+    padding: 5px;
+    color: rgb(21, 238, 14);
+    text-align: center;
+}
+.main .body .infotext:hover {
+    color: brown;
+}
+.main .main .body .text_school .text_name_school {
+    font-size: 1.5vh;
+    padding: 5px;
+    color: black;
+}
